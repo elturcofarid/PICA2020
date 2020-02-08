@@ -7,13 +7,14 @@ Swagger
 </h2>
 
 Cliente 
-
-https://vippsas.github.io/vipps-ecom-api/  
-
-https://api.elkogroup.com/index.html 
-
-
 https://github.com/elturcofarid/PICA2020/blob/master/GetImage.png
+
+
+Produtos
+https://app.swaggerhub.com/apis/cepv2010/Producto/v1
+
+Ordenes
+https://app.swaggerhub.com/apis/dalemego/pica-cliente/1.0
 
 
 <h2>
