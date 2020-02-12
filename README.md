@@ -41,8 +41,5 @@ Dynamo DB
   
   
   
-  MOdificaciones a hacer
-  -	Modificar gestiona servicios  por Gestionar servicios
--	Revisar el diagrama de aplicaciones mirar pasarlos a dominios
--	Doble click en comprar
+
 
