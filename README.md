@@ -11,6 +11,9 @@ Repositorio PICA2020
 - Usuario
 - Proveedor
 
+
+![Proceso integrado](https://github.com/elturcofarid/PICA2020/blob/master/Proceso%20integrado%20-%20mejora.jpg)
+
 <h2>
 Swagger
 </h2>
