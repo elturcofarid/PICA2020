@@ -11,6 +11,13 @@ Repositorio PICA2020
 - Usuario
 - Proveedor
 
+# Diagrama Integrado
+
+El siguiente diagrama muestra:
+- Los actores y Roles que interacturan con el sistema
+- Procesos a nivel de negocio
+- Dominios y subdominios
+- Servicios
 
 ![Proceso integrado](https://github.com/elturcofarid/PICA2020/blob/master/Proceso%20integrado%20-%20mejora.jpg)
 
