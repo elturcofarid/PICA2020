@@ -1,5 +1,5 @@
 <h1>
-Reporsiorio PICA2020
+Repositorio PICA2020
 </h1>
 
 <h2>
