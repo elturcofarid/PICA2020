@@ -2,6 +2,15 @@
 Repositorio PICA2020
 </h1>
 
+# Dominios
+
+- Producto
+- Reserva
+- Pre-Orden
+- Orden
+- Usuario
+- Proveedor
+
 <h2>
 Swagger
 </h2>
