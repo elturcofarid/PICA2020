@@ -37,3 +37,4 @@ Es el encargado de obtener la disponibilidad de transporte sea terrestre o aereo
 |--|--|--|--|--|--|--|
 | producto | transporte/clase | estado | GET | ElementosDto | 200, 404 |  Encargado de obtener las clase de transportes es decir si es clase economica, ejecutiva o primera clase
 | producto | transporte/tipoTransporte | estado | GET | ElementosDto | 200, 404 | Encargado de obtener los tipos de transportes 
+| producto | transporte | clase,tipoTransporte,fechaDesde, fechaHasta (Opcional),pasajeros,ciudadDesde, ciudadHasta (Opcional) | GET | TransporteDto | 200,204,404 | Encargado de obtener los resultados disonibles de transporte
