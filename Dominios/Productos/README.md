@@ -7,7 +7,6 @@ Dominio en el cual se consulta toda la gama de productos y sus respectivos param
 - Evento
 - Transporte
 - Hospedaje
-- Paquete
 
 
 ## Sub-Dominios
@@ -38,3 +37,11 @@ Es el encargado de obtener la disponibilidad de transporte sea terrestre o aereo
 | producto | transporte/clase | estado | GET | ElementosDto | 200, 404 |  Encargado de obtener las clase de transportes es decir si es clase economica, ejecutiva o primera clase
 | producto | transporte/tipoTransporte | estado | GET | ElementosDto | 200, 404 | Encargado de obtener los tipos de transportes 
 | producto | transporte | clase,tipoTransporte,fechaDesde, fechaHasta (Opcional),pasajeros,ciudadDesde, ciudadHasta (Opcional) | GET | TransporteDto | 200,204,404 | Encargado de obtener los resultados disonibles de transporte
+
+### Hospedaje
+
+Es el encargado de obtener la disponibilidad de hospedaje de acuerdo a unos parametros:
+
+| Dominio | Sub-dominio  | Atributos | Tipo | Respuesta | Estados | Descripción 
+|--|--|--|--|--|--|--|
+| producto | hospedaje | fechaDesde, fechaHasta, ciudad, nroHabitaciones, nroPersonas | GET | hospedajeDto-tipoHabitacionDto | 200,204,404 | Encargado de obtener los resultadosdisponibles de hospedaje
