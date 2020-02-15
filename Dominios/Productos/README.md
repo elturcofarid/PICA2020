@@ -24,3 +24,16 @@ Es el encargado de obtener los eventos disponibles de acuerdo a unos parametros:
 |  producto | evento/tipoEvento | estado | GET | ElementosDto | 200,404 | Encargado de obtener los tipos de eventos disponibles
 | producto | evento/subTipoEvento | tipoEvento, estado | GET |  ElementosDto | 200,404 | Encargado de obtener los subtipos de acuerdo al tipo de evento seleccionado
 | producto | evento | tipoEvento, subtipoEvento, fecha,ciudad,cantidadEntradas | GET | eventoDto | 200,204,404 | Encargado de obtener los resultados disponibles de eventos
+
+
+### Transporte
+
+Es el encargado de obtener la disponibilidad de transporte sea terrestre o aereo de acuerdo a unos parametros:
+
+- Tipo de transporte
+- Clase
+
+| Dominio | Sub-dominio  | Atributos | Tipo | Respuesta | Estados | Descripción 
+|--|--|--|--|--|--|--|
+| producto | transporte/clase | estado | GET | ElementosDto | 200, 404 |  Encargado de obtener las clase de transportes es decir si es clase economica, ejecutiva o primera clase
+| producto | transporte/tipoTransporte | estado | GET | ElementosDto | 200, 404 | Encargado de obtener los tipos de transportes 
